@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  color: white;
+  
+}
+
+body{
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(90deg, #3c436b 0%, #272775 100%);
+}
