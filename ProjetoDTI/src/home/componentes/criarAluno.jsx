@@ -40,6 +40,7 @@ function CriarAluno() {
     }
     return (
         <>
+        <h1>Cadastrar Alunos</h1>
             <form onSubmit={onSubmit}>
                 <label>Nome:</label>
                 <input type="text" name="nome" required />
