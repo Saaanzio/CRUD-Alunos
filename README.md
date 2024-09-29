@@ -51,4 +51,24 @@ Abrir http://localhost:5173 no seu navegador de preferência.
 
 # 🧩 Decisões Tomadas
 
+- O frontend do projeto foi realizado em React.js em Vite, Html e CSS
 
+- Foi utilizada a biblioteca Router para redirecionar o usuário e Axios para realizar a integração com o backend e fazer as requisições HTTP.
+
+- Para o backend foi utilizado Java.
+
+- As bibliotecas e frameworks utilizadas no backend foram: Spring Boot e Maven.
+
+- IDEs/Editores de código utilizados: Intellij e Vscode.
+
+- Código comentado para facilitar entendimento de outras pessoas
+
+Estrutura:
+
+Backend:
+- Camada de controle responsável por receber as requisições do controle, como GET, POST e DELETE, utilizadas para receber a lista de alunos, notas e criar alunos.
+  
+- Modelo é onde está a estrutura do projeto, permitindo acesso aos dados à camada de controle, com classes como Aluno e AlunoServico.
+
+Frontend:
+- O frontend foi dividido em componentes, que são redirecionados após o usuário escolher a aba desejada na página principal.
