@@ -1,19 +1,16 @@
 package com.rafael.alunos.model;
 
-import jakarta.persistence.*;
 
 import java.util.List;
 
-@Entity
-@Table(name = "Alunos")
+
 public class Aluno {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+    private static int ID_ALUNO = 1;
     private int id;
 
     private String nome;
 
-    @ElementCollection
     private List<Integer> notas;
 
     private int frequencia;
@@ -34,10 +31,6 @@ public class Aluno {
         this.nome = nome;
     }
 
-
-    public Aluno() {
-    }
-
     public List<Integer> getNotas() {
         return notas;
     }
@@ -55,6 +48,8 @@ public class Aluno {
     }
 
     public Aluno(String nome, List<Integer> notas, int frequencia) {
+        this.id = ID_ALUNO;
+        ID_ALUNO++;
         this.nome = nome;
         this.notas = notas;
         this.frequencia = frequencia;

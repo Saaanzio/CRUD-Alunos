@@ -1,8 +1,7 @@
 package com.rafael.alunos.Control;
 
 import com.rafael.alunos.model.Aluno;
-import com.rafael.alunos.model.AlunoDAO;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.rafael.alunos.model.AlunosServico;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -16,12 +15,11 @@ import java.util.Map;
 @CrossOrigin("http://localhost:5174")
 public class AlunoController {
 
-    @Autowired
-    private AlunoDAO alunodao;
+    private final AlunosServico alunosServico = new AlunosServico();
 
     @GetMapping
     public ResponseEntity<List<Aluno>> todosAlunos(){
-        return new ResponseEntity<List<Aluno>>(alunodao.todosAlunos(), HttpStatus.OK);
+        return new ResponseEntity<List<Aluno>>(alunosServico.todosAlunos(), HttpStatus.OK);
     }
 
     @PostMapping("/criar")
@@ -35,20 +33,20 @@ public class AlunoController {
                 }
             }
         }
-        return new ResponseEntity<Aluno>(alunodao.salvar(payload.get("nome").toString(), notas,  payload.get("frequencia").toString()), HttpStatus.OK);
+        return new ResponseEntity<Aluno>(alunosServico.salvar(payload.get("nome").toString(), notas,  Integer.parseInt(payload.get("frequencia").toString())), HttpStatus.OK);
     }
     //Requisição get para alunos acima da média
     @GetMapping("/mediaAlunos")
     public ResponseEntity<List<Aluno>> alunosAcimaMedia(){
-        return new ResponseEntity<List<Aluno>>(alunodao.alunosAcimadaMedia(), HttpStatus.OK);
+        return new ResponseEntity<List<Aluno>>(alunosServico.alunosAcimadaMedia(), HttpStatus.OK);
     }
     @GetMapping("/media")
     public ResponseEntity<List<Integer>> acimaMedia(){
-        return new ResponseEntity<List<Integer>>(alunodao.mediaMaterias(), HttpStatus.OK);
+        return new ResponseEntity<List<Integer>>(alunosServico.mediaMaterias(), HttpStatus.OK);
     }
     //Requisição get para alunos com frequência acima de 75%
     @GetMapping("/frequencia")
     public ResponseEntity<List<Aluno>> frequenciaAcima(){
-        return new ResponseEntity<List<Aluno>>(alunodao.frequenciaAbaixo(), HttpStatus.OK);
+        return new ResponseEntity<List<Aluno>>(alunosServico.frequenciaAbaixo(), HttpStatus.OK);
     }
 }
