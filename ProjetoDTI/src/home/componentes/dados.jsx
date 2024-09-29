@@ -22,41 +22,24 @@ function Dados() {
     // Conditional rendering da tabela de alunos acima da média
     const renderAcimadaMedia = () => {
         return alunosMedia.length === 0 ? <h1>Não existem alunos acima média...</h1> : alunosMedia.map((alunos, index) => (
-            <table className="frequencias">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Nome</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr key={alunos.id}>
-                        <td>{alunos.id}</td>
-                        <td>{alunos.nome}</td>
-                    </tr>
-                </tbody>
-            </table>
+            <tbody>
+                <tr key={alunos.id}>
+                    <td>{alunos.id}</td>
+                    <td>{alunos.nome}</td>
+                </tr>
+            </tbody>
         ))
     }
     // Conditional rendering da tabela de alunos com a frequênca abaixo de 75%
     const renderFrequencia = () => {
         return alunosFrequencia.length === 0 ? <h1>Vazio...</h1> : alunosFrequencia.map((alunos) => (
-            <table className="frequencias">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Nome</th>
-                        <th>Frequência</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr key={alunos.id}>
-                        <td>{alunos.id}</td>
-                        <td>{alunos.nome}</td>
-                        <td>{alunos.frequencia}%</td>
-                    </tr>
-                </tbody>
-            </table>
+            <tbody>
+                <tr key={alunos.id}>
+                    <td>{alunos.id}</td>
+                    <td>{alunos.nome}</td>
+                    <td>{alunos.frequencia}%</td>
+                </tr>
+            </tbody>
         ))
     }
     // Renderização da tabela principal de média de notas, com o chamado para as outras funções e uma mensagem caso não haja alunos
@@ -83,9 +66,27 @@ function Dados() {
             </table>
         </div>
             <h1>Frequência abaixo de 75%</h1>
-            {renderFrequencia()}
+            <table className="frequencias">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Frequência</th>
+                    </tr>
+                </thead>
+                {renderFrequencia()}
+            </table>
             <h1>Alunos acima da média</h1>
-            {renderAcimadaMedia()}
+            <table className="frequencias">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                    </tr>
+                </thead>
+                {renderAcimadaMedia()}
+            </table>
+
         </>
     );
 }
