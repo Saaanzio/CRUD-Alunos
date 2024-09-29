@@ -72,3 +72,5 @@ Backend:
 
 Frontend:
 - O frontend foi dividido em componentes, que são redirecionados após o usuário escolher a aba desejada na página principal.
+
+- Por ser a camada de visão, é onde é devolvida uma resposta ao usuário após ter sido feito uma requisição.
