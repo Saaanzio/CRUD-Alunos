@@ -111,6 +111,6 @@ a{
         width: 50%;
     }
     html{
-        background: #272775;
+        background: linear-gradient(90deg, #3c436b 0%, #272775 100%);;
     }
 }
