@@ -61,7 +61,7 @@ function Dados() {
     }
     // Renderização da tabela principal de média de notas, com o chamado para as outras funções e uma mensagem caso não haja alunos
     return (
-        mediaMaterias.length === 0 ? <h1 className="styles.error">Você precisa inserir alunos para ver mais dados...</h1> : <><h1>Dados</h1><div className="overflow">
+        mediaMaterias.length === 0 ? <h1>Você precisa inserir alunos para ver mais dados...</h1> : <><h1>Dados</h1><div className="overflow">
 
             <table>
                 <thead>
