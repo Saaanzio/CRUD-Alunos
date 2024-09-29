@@ -31,6 +31,18 @@ public class Aluno {
         return frequencia;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setFrequencia(int frequencia) {
+        this.frequencia = frequencia;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
     public Aluno(String nome, List<Integer> notas, int frequencia) {
         this.id = ID_ALUNO;
         ID_ALUNO++;

@@ -12,7 +12,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/alunos")
-@CrossOrigin("http://localhost:5174")
+@CrossOrigin("http://localhost:5175")
 public class AlunoController {
 
     private final AlunosServico alunosServico = new AlunosServico();
