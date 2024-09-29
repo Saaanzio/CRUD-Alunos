@@ -39,8 +39,11 @@ Abra um terminal em sua IDE desejada e insira
 ```npm install``` -> Instalar as dependências
 
 3 - Rodar o Aplicativo
+
 ```npm run dev``` -> Inicializar o projeto com Vite na porta 5173
-Guardar o link gerado http://localhost:5173
+
+Guardar o link gerado: http://localhost:5173
+
 Inicializar a aplicação em Springboot localizada em \Backend\alunos\alunos\src\main\java\com\rafael\alunos\AlunosApplication.java
 ![image](https://github.com/user-attachments/assets/58a89195-8c33-4c24-b4f8-9c17a2a9c50a)
 
