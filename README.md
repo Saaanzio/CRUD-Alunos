@@ -16,7 +16,7 @@ especial.
 # ⚙️ Instruções para execução:
 1 - Clonar o projeto com ```git clone https://github.com/Saaanzio/ProjetoDTI.git```
 ou
-<img src="![image](https://github.com/user-attachments/assets/b3c91e6c-7a67-4f90-90a1-93d0f7234830)" width="300" height="200" alt="Clonar repositório">
+<img src="https://github.com/user-attachments/assets/b3c91e6c-7a67-4f90-90a1-93d0f7234830" width="300" height="200" alt="Clonar repositório">
 
 2 - Instalar as dependências
 É necessário o node instalado no computador para prosseguir (https://nodejs.org/pt)
