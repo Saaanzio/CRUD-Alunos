@@ -1,6 +1,8 @@
 # 👋 Sobre o Projeto:
 Projeto para o Processo Seletivo DTI
+
 Problema:
+
 Crie um sistema onde Carlos possa inserir as notas
 de cada aluno (0 a 10) nas cinco disciplinas e a
 frequência de cada aluno em percentual (0 a 100%). O
@@ -22,7 +24,7 @@ ou
 
 2 - Instalar as dependências
 
-É necessário o node instalado no computador para prosseguir (https://nodejs.org/pt)
+É necessário o node instalado no computador para prosseguir com comandos "npm" (https://nodejs.org/pt)
 Abra um terminal em sua IDE desejada e insira
 
 ```cd ProjetoDTI``` -> Ir até o diretório do frontend
@@ -74,3 +76,14 @@ Frontend:
 - O frontend foi dividido em componentes, que são redirecionados após o usuário escolher a aba desejada na página principal.
 
 - Por ser a camada de visão, é onde é devolvida uma resposta ao usuário após ter sido feito uma requisição.
+
+# 📸 Imagens do projeto
+<img src="https://github.com/user-attachments/assets/86734dab-91a8-4381-912b-d5cefa027b6a" width="300" height="200" alt="Imagem">
+<img src="https://github.com/user-attachments/assets/70ce950f-d6d3-44ba-bbd3-6d80a8b1ae6c" width="300" height="200" alt="Imagem">
+<img src="https://github.com/user-attachments/assets/36535fd1-f964-47b8-9ae8-61f2d13ed4c6" width="300" height="200" alt="Imagem">
+
+# 🎈 Obrigado!
+
+Projeto realizado por: Rafael Sanzio e Silva
+
+
