@@ -30,7 +30,7 @@ function Dados() {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr key={index}>
+                    <tr key={alunos.id}>
                         <td>{alunos.id}</td>
                         <td>{alunos.nome}</td>
                     </tr>
@@ -40,7 +40,7 @@ function Dados() {
     }
     // Conditional rendering da tabela de alunos com a frequênca abaixo de 75%
     const renderFrequencia = () => {
-        return alunosFrequencia.length === 0 ? <h1>Vazio...</h1> : alunosFrequencia.map((alunos, index) => (
+        return alunosFrequencia.length === 0 ? <h1>Vazio...</h1> : alunosFrequencia.map((alunos) => (
             <table className="frequencias">
                 <thead>
                     <tr>
@@ -50,7 +50,7 @@ function Dados() {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr key={index}>
+                    <tr key={alunos.id}>
                         <td>{alunos.id}</td>
                         <td>{alunos.nome}</td>
                         <td>{alunos.frequencia}%</td>
