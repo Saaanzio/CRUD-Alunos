@@ -24,7 +24,9 @@ ou
 
 É necessário o node instalado no computador para prosseguir (https://nodejs.org/pt)
 Abra um terminal em sua IDE desejada e insira
+
 ```cd ProjetoDTI``` -> Ir até o diretório do frontend
+
 ```npm install``` -> Instalar as dependências
 
 3 - Rodar o Aplicativo
