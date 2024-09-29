@@ -80,7 +80,7 @@ form button{
 
 p{
     text-align: center;
-    line-height: 1.6;
+    line-height: 2.5;
 }
 /* Overflow é uma div utilizada para adicionar a scrollbar nas tabelas maiores (médias disciplinas e alunos) */
 .overflow{
@@ -92,6 +92,9 @@ footer{
     background-color: #0e06164d;
     width: 100%;
     height: 2.5rem;
+}
+a{
+    text-decoration: none;
 }
 /* Media Queries para responsividade*/
 @media (max-width: 768px) {

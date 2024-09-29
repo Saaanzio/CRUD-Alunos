@@ -55,7 +55,15 @@ public class AlunosServico {
         return null;
     }
 
+    public Aluno deletarAluno(int id) {
+        Aluno aluno = alunos.stream().filter(a -> a.getId() == id).findFirst().orElse(null);
+        alunos.remove(aluno);
+        return aluno;
+    }
+
     public List<Aluno> frequenciaAbaixo() {
         return alunos.stream().filter(a -> a.getFrequencia() < 75).collect(Collectors.toList());
     }
+
+
 }

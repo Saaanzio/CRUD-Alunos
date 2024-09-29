@@ -43,15 +43,15 @@ function CriarAluno() {
             <form onSubmit={onSubmit}>
                 <label>Nome:</label>
                 <input type="text" name="nome" required />
-                <label>Nota Disciplina 1:</label>
+                <label>Nota Matemática:</label>
                 <input type="text" name="disciplina1" required />
-                <label>Nota Disciplina 2:</label>
+                <label>Nota Geografia:</label>
                 <input type="text" name="disciplina2" required />
-                <label>Nota Disciplina 3:</label>
+                <label>Nota História:</label>
                 <input type="text" name="disciplina3" required />
-                <label>Nota Disciplina 4:</label>
+                <label>Nota Português:</label>
                 <input type="text" name="disciplina4" required />
-                <label>Nota Disciplina 5:</label>
+                <label>Nota Química:</label>
                 <input type="text" name="disciplina5" required />
                 <label>Frequência:</label>
                 <input type="text" name="frequencia" required />

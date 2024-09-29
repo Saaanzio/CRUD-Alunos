@@ -18,7 +18,6 @@ function Dados() {
 
         resposta = await api.get("/alunos/mediaAlunos");
         setAlunosMedia(resposta.data);
-        console.log(resposta.data);
     }
     // Conditional rendering da tabela de alunos acima da média
     const renderAcimadaMedia = () => {
@@ -67,11 +66,11 @@ function Dados() {
             <table>
                 <thead>
                     <tr>
-                        <th>Média Disciplina 1</th>
-                        <th>Média Disciplina 2</th>
-                        <th>Média Disciplina 3</th>
-                        <th>Média Disciplina 4</th>
-                        <th>Média Disciplina 5</th>
+                        <th>Média Matemática</th>
+                        <th>Média Geografia</th>
+                        <th>Média História</th>
+                        <th>Média Português</th>
+                        <th>Média Química</th>
                     </tr>
                 </thead>
                 <tbody>
