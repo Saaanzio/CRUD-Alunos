@@ -1,6 +1,5 @@
 import { useNavigate } from 'react-router-dom';
 import api from '../axiosConfig';
-import axios from 'axios';
 import { useState } from 'react';	
 function CriarAluno() {
     const navigate = useNavigate();
@@ -28,7 +27,7 @@ function CriarAluno() {
                 return;
             }
         try {
-            const resposta = await api.post('http://localhost:8080/alunos/criar',{
+            const resposta = await api.post('/alunos/criar',{
                 "nome": nome,
                 "notas": notas.map(n => parseFloat(n)),
                 "frequencia": frequencia
