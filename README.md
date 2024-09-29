@@ -16,6 +16,7 @@ abaixo de 75%, pois esses alunos precisam de atenção
 especial.
 
 # ⚙️ Instruções para execução:
+
 1 - Clonar o projeto com ```git clone https://github.com/Saaanzio/ProjetoDTI.git```
 
 ou
@@ -23,6 +24,11 @@ ou
 <img src="https://github.com/user-attachments/assets/b3c91e6c-7a67-4f90-90a1-93d0f7234830" width="300" height="200" alt="Clonar repositório">
 
 2 - Instalar as dependências
+
+Se estiver Utilizando Vscode, será requerido instalar algumas extensões para utilizar Java e Spring Boot:
+- Java
+- Java Extension Pack
+- Spring Boot Extension Pack
 
 É necessário o node instalado no computador para prosseguir com comandos "npm" (https://nodejs.org/pt)
 Abra um terminal em sua IDE desejada e insira
@@ -81,6 +87,17 @@ Frontend:
 <img src="https://github.com/user-attachments/assets/86734dab-91a8-4381-912b-d5cefa027b6a" width="300" height="200" alt="Imagem">
 <img src="https://github.com/user-attachments/assets/70ce950f-d6d3-44ba-bbd3-6d80a8b1ae6c" width="300" height="200" alt="Imagem">
 <img src="https://github.com/user-attachments/assets/36535fd1-f964-47b8-9ae8-61f2d13ed4c6" width="300" height="200" alt="Imagem">
+
+# 🔗 Técnologias Utilizadas
+
+- Java
+- Spring Boot
+- Maven
+- React
+- HTML/CSS
+- Javscript
+- Axios
+- Router
 
 # 🎈 Obrigado!
 
