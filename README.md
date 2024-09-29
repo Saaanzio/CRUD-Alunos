@@ -1,4 +1,4 @@
-# Sobre o Projeto:
+# 👋 Sobre o Projeto:
 Projeto para o Processo Seletivo DTI
 Problema:
 Crie um sistema onde Carlos possa inserir as notas
@@ -36,5 +36,19 @@ Inicializar a aplicação em Springboot localizada em \Backend\alunos\alunos\src
 ![image](https://github.com/user-attachments/assets/58a89195-8c33-4c24-b4f8-9c17a2a9c50a)
 
 Abrir http://localhost:5173 no seu navegador de preferência.
+
+# 🚩 Premissas Assumidas
+
+- Objetivo: criar um site de gerenciar notas para o usuário final.
+
+- Funcionalidades: Será possível adicionar alunos com suas notas e frequências, além de filtrar por média geral, acima da média e abaixo de uma certa frequência.
+
+- Limitações: Tem um número fixo de 5 disciplinas, em que suas notas vão de 0 a 10 e a frequência entre 0 a 100%.
+
+- Ambiente: Navegador Web de celular ou computador.
+
+- Tecnologias: O sistema deverá envolver técnologias frontend e backend.
+
+# 🧩 Decisões Tomadas
 
 
