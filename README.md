@@ -91,7 +91,6 @@ Frontend:
 
 # 📸 Imagens do projeto
 <img src="https://github.com/user-attachments/assets/86734dab-91a8-4381-912b-d5cefa027b6a" width="300" height="200" alt="Imagem">
-<img src="https://github.com/user-attachments/assets/70ce950f-d6d3-44ba-bbd3-6d80a8b1ae6c" width="300" height="200" alt="Imagem">
 <img src="https://github.com/user-attachments/assets/36535fd1-f964-47b8-9ae8-61f2d13ed4c6" width="300" height="200" alt="Imagem">
 
 # 🔗 Técnologias Utilizadas
