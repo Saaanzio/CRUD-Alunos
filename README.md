@@ -49,7 +49,7 @@ Abrir http://localhost:5173 no seu navegador de preferência.
 
 - Objetivo: criar um site de gerenciar notas para o usuário final.
 
-- Funcionalidades: Será possível adicionar alunos com suas notas e frequências, além de filtrar por média geral, acima da média e abaixo de uma certa frequência.
+- Funcionalidades: Será possível adicionar alunos com suas notas e frequências, além de filtrar por média geral, acima da média de cada nota e abaixo de 75% de frequência.
 
 - Limitações: Tem um número fixo de 5 disciplinas, em que suas notas vão de 0 a 10 e a frequência entre 0 a 100%.
 
@@ -70,6 +70,8 @@ Abrir http://localhost:5173 no seu navegador de preferência.
 - IDEs/Editores de código utilizados: Intellij e Vscode.
 
 - Código comentado para facilitar entendimento de outras pessoas
+
+- Projeto irá seguir o padrão MVC
 
 Estrutura:
 
