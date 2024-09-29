@@ -31,6 +31,7 @@ Se estiver Utilizando Vscode, será requerido instalar algumas extensões para u
 - Spring Boot Extension Pack
 
 É necessário o node instalado no computador para prosseguir com comandos "npm" (https://nodejs.org/pt)
+
 Abra um terminal em sua IDE desejada e insira
 
 ```cd ProjetoDTI``` -> Ir até o diretório do frontend
