@@ -15,10 +15,13 @@ especial.
 
 # ⚙️ Instruções para execução:
 1 - Clonar o projeto com ```git clone https://github.com/Saaanzio/ProjetoDTI.git```
+
 ou
+
 <img src="https://github.com/user-attachments/assets/b3c91e6c-7a67-4f90-90a1-93d0f7234830" width="300" height="200" alt="Clonar repositório">
 
 2 - Instalar as dependências
+
 É necessário o node instalado no computador para prosseguir (https://nodejs.org/pt)
 Abra um terminal em sua IDE desejada e insira
 ```cd ProjetoDTI``` -> Ir até o diretório do frontend
