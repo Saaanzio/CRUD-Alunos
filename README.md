@@ -40,7 +40,7 @@ Abra um terminal em sua IDE desejada e insira
 
 3 - Rodar o Aplicativo
 
-```npm run dev``` -> Inicializar o projeto com Vite na porta 5173
+```npm run dev``` -> Inicializa o projeto com Vite na porta 5173
 
 Guardar o link gerado: http://localhost:5173
 
