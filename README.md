@@ -16,7 +16,7 @@ especial.
 # ⚙️ Instruções para execução:
 1 - Clonar o projeto com ```git clone https://github.com/Saaanzio/ProjetoDTI.git```
 ou
-![image](https://github.com/user-attachments/assets/b3c91e6c-7a67-4f90-90a1-93d0f7234830)
+<img src="![image](https://github.com/user-attachments/assets/b3c91e6c-7a67-4f90-90a1-93d0f7234830)" width="300" height="200" alt="Clonar repositório">
 
 2 - Instalar as dependências
 É necessário o node instalado no computador para prosseguir (https://nodejs.org/pt)
@@ -29,6 +29,7 @@ Abra um terminal em sua IDE desejada e insira
 Guardar o link gerado http://localhost:5173
 Inicializar a aplicação em Springboot localizada em \Backend\alunos\alunos\src\main\java\com\rafael\alunos\AlunosApplication.java
 ![image](https://github.com/user-attachments/assets/58a89195-8c33-4c24-b4f8-9c17a2a9c50a)
+
 Abrir http://localhost:5173 no seu navegador de preferência.
 
 
