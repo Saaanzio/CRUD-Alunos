@@ -101,7 +101,7 @@ Frontend:
 - Maven
 - React
 - HTML/CSS
-- Javscript
+- Javascript
 - Axios
 - Router
 
