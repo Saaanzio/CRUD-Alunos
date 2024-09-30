@@ -21,7 +21,7 @@ function Dados() {
     }
     // Conditional rendering da tabela de alunos acima da média
     const renderAcimadaMedia = () => {
-        return alunosMedia.length === 0 ? <h1>Não existem alunos acima média...</h1> : alunosMedia.map((alunos, index) => (
+        return alunosMedia.length === 0 ? <h1>Não existem alunos acima média...</h1> : alunosMedia.map((alunos) => (
             <tbody>
                 <tr key={alunos.id}>
                     <td>{alunos.id}</td>

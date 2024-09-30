@@ -23,11 +23,11 @@ public class AlunosServico {
     public List<Aluno> todosAlunos() {
         return alunos;
     }
+    
     //Método para calcular a média dos alunos
     private List<Integer> mediaNotas() {
         int[] notas = new int[5];
         for (int i = 0; i < 5; i++) {
-            int soma = 0;
             for (Aluno aluno : alunos) {
                 notas[i] += aluno.getNotas().get(i);
             }
@@ -55,12 +55,14 @@ public class AlunosServico {
         return null;
     }
 
+    //Método que procura na lista de alunos o ID e o remove
     public Aluno deletarAluno(int id) {
         Aluno aluno = alunos.stream().filter(a -> a.getId() == id).findFirst().orElse(null);
         alunos.remove(aluno);
         return aluno;
     }
 
+    //Método que retorna uma lista de alunos com frequência abaixo de 75%
     public List<Aluno> frequenciaAbaixo() {
         return alunos.stream().filter(a -> a.getFrequencia() < 75).collect(Collectors.toList());
     }

@@ -37,6 +37,7 @@ function CriarAluno() {
             console.log(error.response.data);
         }
     }
+    //Formulário para a criação de alunos
     return (
         <>
         <h1>Cadastrar Alunos</h1>

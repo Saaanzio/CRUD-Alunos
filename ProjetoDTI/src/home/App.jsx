@@ -8,7 +8,6 @@ function App() {
   //Navbar footer e espaço para a renderização dos componentes, além de definir as rotas para cada uma das opções
   return (
     <>
-      
       <div className="container">
         <BrowserRouter>
           <ul className="navbar">
