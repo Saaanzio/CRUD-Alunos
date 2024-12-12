@@ -1,5 +1,4 @@
 # 👋 Sobre o Projeto:
-Projeto para o Processo Seletivo DTI
 
 Problema:
 
